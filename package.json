@@ -1,0 +1,16 @@
+{
+  "name": "syno-slacker",
+  "version": "1.0.0",
+  "description": "Synology Notification Relay for Slack",
+  "author": "Krakenfall",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js"
+  },
+  "dependencies": {
+    "bluebird": "^3.4.6",
+    "body-parser": "^1.15.2",
+    "express": "^4.14.0",
+    "request": "^2.74.0"
+  }
+}
