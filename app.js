@@ -8,7 +8,7 @@ var request = require('request');
 const app = express();
 app.use(bodyParser.json());
 const logFile = "server.log";
-const port = process.env.RELAY_PORT ? process.env.RELAY_PORT : 80;
+const port = process.env.RELAY_PORT ? process.env.RELAY_PORT : 9080;
 const webhook = process.env.WEBHOOK_URI ? process.env.WEBHOOK_URI : "WEBHOOK_URI undefined";
 
 const log = function(data, logInConsole) {

@@ -2,7 +2,7 @@ FROM node:boron
 LABEL Description="Synology Notification Relay for Slack" \
 Vendor="Krakenfall" Version="1.0"
 
-ARG RELAY_PORT=80
+ARG RELAY_PORT=9080
 ARG WEBHOOK_URI
 
 ENV RELAY_PORT=$RELAY_PORT
